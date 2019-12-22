@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 //Flutter Master
 
-void main() => runApp(MyApp());
+void main() => runApp(FlutterMaster());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return FlutterMaster(
       title: 'Flutter Master',
       theme: ThemeData(
         // This is the theme of your application.
